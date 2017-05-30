@@ -20,8 +20,8 @@ suite('cookie-parser should be properly implemented.', () => {
 
   test('GET /read should read the cookies from the request and return the values as JSON in the response.', (done) => {
 
-    let cookie = 'mega=man'
-    let cookieObj = {"mega":"man"}
+    let cookie = 'mega=man';
+    let cookieObj = {"mega":"man"};
 
     request(server)
     .get('/read')

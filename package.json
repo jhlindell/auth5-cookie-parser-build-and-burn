@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ghost-/auth5-cookie-parser-build-and-burn#readme",
   "dependencies": {
+    "cookie-parser": "^1.4.3",
     "express": "^4.15.3"
   },
   "devDependencies": {
